@@ -44,7 +44,7 @@ $(document).ready(function(){
     
 });
 
-// countdown timero
+// countdown timer
 var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
 
 // Update the count down every 1 second
@@ -72,3 +72,15 @@ var x = setInterval(function() {
     document.getElementById("timer").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+// pop up
+$('#pop-btn').click(function(e){
+    e.preventDefault();
+    $('#overlay').css("display" , "block");
+});
+
+$('#close').click(function(){
+    e.preventDefault();
+    $('#overlay').css("display" , "none");
+});
+

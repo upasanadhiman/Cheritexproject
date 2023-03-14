@@ -68,6 +68,44 @@ h3{
     background-color: #ffac4a;
 }
 
+a.fa-times{
+    color:#f7810e;
+    font-size: 23px;
+    position: relative;
+    left: 47%;
+    bottom: 20%;
+    text-decoration: none;
+}
+
+#overlay{
+    width: 50%;
+    background-color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    padding: 30px;
+    border: 2px solid #dd2684;
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+
+#pop-up h2{
+    color: #000;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#pop-up p{
+    color:#f7810e;
+    font-size: 14px;
+}
+
+#pop-up .btn{
+    margin-top: 20px;
+}
+
 .head{
     padding: 5px 40px;
     background-color: #ffac4a;
@@ -761,3 +799,6 @@ footer .copywrite{
   #myBtn:hover{
     background-color: var(--theme-color);
   }
+
+  /* media query */
+
